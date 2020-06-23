@@ -1,0 +1,50 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body.welcome{
+  background-image: url("white-background.jpg");
+  height: 100%;
+}
+.header{
+  font-size: 40px;
+  text-align: center;
+}
+.maincontainer{
+  background-color: #DDDDDD
+}
+.pagecontainer {
+  columns: 3;
+}
+.pagecontainer2 {
+  columns: 2;
+}
+.content{
+  border-radius: 25px;
+  background: #888888;
+  padding: 20px;
+  width: 340px;
+  font-size: 40px;
+  text-align: center;
+  height: 150px;
+}
+.content2{
+  border-radius: 25px;
+  background: #888888;
+  padding: 20px;
+  width: 340px;
+  margin-left: 100px;
+  font-size: 40px;
+  text-align: center;
+  height: 150px;
+}
+.content2{
+  border-radius: 25px;
+  background: #888888;
+  padding: 20px;
+  width: 340px;
+  margin-right: 130px;
+  float: right;
+  font-size: 40px;
+  text-align: center;
+  height: 150px;
+}

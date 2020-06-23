@@ -1,0 +1,43 @@
+<body>
+<div class="container">
+  <div class="title" align="center">
+    <h1>Welcome to Phoenix Portal</h1>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="login">
+    <h2>Log In to Your Account</h2>
+    <form class="" action="sessions" method="post">
+      <input type="hidden" name="authenticity_token" value="<%=form_authenticity_token%>">
+      <input type="text" name="login[company_id]" placeholder="Company ID">
+      <br><input type="text" name="login[username]" placeholder="Username">
+      <br><input type="password" name="login[password]" placeholder="Password">
+      <br>
+      <div class="fpass">
+        <a href="#">Forgot password?</a>
+      </div>
+      <br><input type="submit" name="submit" value="Log In">
+    </form>
+    <br>
+    <p class="signin">Need an account?<a href="#">Sign Up</a></p>
+  </div>
+  <p align="center" class="bottom">Terms of Use . Help . Privacy Policy</p>
+</div>
+
+<div class="container">
+</div>
+<br>
+<div class="container">
+  <div class="login">
+    <h2>Register Your Account</h2>
+    <form class="" action="users" method="post">
+      <input type="hidden" name="authenticity_token" value="<%=form_authenticity_token%>">
+      <input type="text" name="user[company_id]" placeholder="Company ID">
+      <br><input type="text" name="user[username]" placeholder="Username">
+      <br><input type="password" name="user[password]" placeholder="Password">
+      <br><input type="submit" name="submit" value="Register">
+    </form>
+    <br>
+  </div>
+</body>

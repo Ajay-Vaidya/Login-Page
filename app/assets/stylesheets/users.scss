@@ -1,0 +1,79 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+h1{
+  color: white;
+}
+.title{
+  background-color: black;
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+.container{
+  text-align: center;
+}
+.login{
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: inline-block;
+}
+.bottom{
+  font-size: 12px;
+  color: #DDDDDD;
+}
+.fpass{
+  font-size: 11px;
+  text-align: right;
+}
+.signin{
+  font-size: 12px;
+  color: #555555;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: blue;
+  border: 1px;
+  width: 100%;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=password]:focus {
+  border: 3px solid #555;
+}
